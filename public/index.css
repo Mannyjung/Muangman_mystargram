@@ -1,0 +1,89 @@
+:root{
+
+  --base: #F0D1DB;
+  --spacing: 0px;
+  --bulr: 0px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to left, #CCC2FF ,aquamarine,#87CEEB);
+  margin-bottom:4% ;
+
+}
+
+label{
+
+  font-family: 'Rowdies', cursive;
+  color: black ;
+  letter-spacing: 1px;
+
+}
+h1{
+  text-align:center;
+  font-family: 'Rowdies', cursive;
+  color: #FCB0B3  ;
+  font-size: 58px;
+  margin-top: 2%;
+  margin-bottom:2% ;
+  letter-spacing: 10px;
+  text-shadow: 5px 5px 10px #CC66CC;
+}
+input[type=text] {
+  padding: 10px;
+  margin-top: 8px;
+  font-size: 24px;
+  border: none;
+  margin-bottom: 2%;
+}
+
+input:focus{
+   outline: auto;
+}
+
+
+.image{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  width: 300px; /* ความกว้าง */
+  height: 300px; /* ความสูง */
+ -moz-border-radius: 170px; 
+ -webkit-border-radius: 170px;
+  border-radius: 170px;
+  padding: var(--spacing);
+  filter: blur(var(--bulr));
+  background-color: var(--base);
+ 
+  
+}
+.image:hover{
+  box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 5);
+
+}
+button{
+  padding: 12px 22px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 2px 4px;
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+
+}
+
+.controls{
+  margin-right:3% ;
+}
+
+
